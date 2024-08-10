@@ -6,5 +6,4 @@ class UserInDB(BaseModel):
     userPassword: str
 
 
-class UserModel(BaseModel):
-    userId: str
+
