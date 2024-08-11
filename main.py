@@ -31,11 +31,9 @@ def generate_session_id():
 async def login(name: UserModel):
     session_id = generate_session_id()
     session_data[session_id] = {"username": name.username}
-
     response = {"session_id": session_id}
     # response.set_cookie(key="session_id", value=session_id, httponly=True, secure=True, samesite="lax")
     # cookie = f"session_id={session_id}; Path=/; HttpOnly"
-
     return {"message": "Login successful"}
 
 
@@ -71,7 +69,7 @@ async def say_hello(name: str):
 
 
 origins = [
-    "http://localhost:4000",  # React 앱이 실행되는 주소
+    "http://localhost:3001",  # React 앱이 실행되는 주소
 
 ]
 
