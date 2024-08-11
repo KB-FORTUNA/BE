@@ -1,0 +1,8 @@
+time=2024-08-09T16:10:23.247+09:00 level=INFO source=logging.go:50 msg="ollama app started"
+time=2024-08-09T16:10:24.079+09:00 level=INFO source=server.go:176 msg="unable to connect to server"
+time=2024-08-09T16:10:24.080+09:00 level=INFO source=server.go:135 msg="starting server..."
+time=2024-08-09T16:10:24.262+09:00 level=INFO source=server.go:121 msg="started ollama server with pid 14308"
+time=2024-08-09T16:10:24.262+09:00 level=INFO source=server.go:123 msg="ollama server logs C:\\Users\\alivejuicy\\AppData\\Local\\Ollama\\server.log"
+time=2024-08-10T13:05:10.188+09:00 level=ERROR source=eventloop.go:151 msg="failed to refresh the taskbar on explorer restart: Unspecified error"
+time=2024-08-10T14:32:41.393+09:00 level=WARN source=updater.go:77 msg="failed to check for update: Get \"https://ollama.com/api/update?arch=amd64&nonce=OQsxh1XLXpuPpPjKBk0rCw&os=windows&ts=1723267960&version=0.3.4\": dial tcp: lookup ollama.com: no such host"
+time=2024-08-10T19:46:34.037+09:00 level=WARN source=updater.go:77 msg="failed to check for update: Get \"https://ollama.com/api/update?arch=amd64&nonce=j6EslnbqJvtg2MwbPRk6SQ&os=windows&ts=1723286793&version=0.3.4\": dial tcp: lookup ollama.com: no such host"

@@ -1,0 +1,8 @@
+time=2024-08-09T00:00:39.020+09:00 level=INFO source=logging.go:50 msg="ollama app started"
+time=2024-08-09T00:00:39.147+09:00 level=INFO source=store.go:96 msg="wrote store: C:\\Users\\alivejuicy\\AppData\\Local\\Ollama\\config.json"
+time=2024-08-09T00:00:39.165+09:00 level=INFO source=store.go:96 msg="wrote store: C:\\Users\\alivejuicy\\AppData\\Local\\Ollama\\config.json"
+time=2024-08-09T00:00:39.168+09:00 level=INFO source=server.go:176 msg="unable to connect to server"
+time=2024-08-09T00:00:39.168+09:00 level=INFO source=server.go:135 msg="starting server..."
+time=2024-08-09T00:00:39.218+09:00 level=INFO source=server.go:121 msg="started ollama server with pid 5464"
+time=2024-08-09T00:00:39.218+09:00 level=INFO source=server.go:123 msg="ollama server logs C:\\Users\\alivejuicy\\AppData\\Local\\Ollama\\server.log"
+time=2024-08-09T00:00:41.195+09:00 level=INFO source=getstarted_windows.go:31 msg="opening getting started terminal with [C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noexit -ExecutionPolicy Bypass -nologo -file C:\\Users\\alivejuicy\\AppData\\Local\\Programs\\Ollama\\ollama_welcome.ps1]"
